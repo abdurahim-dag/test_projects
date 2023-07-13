@@ -10,5 +10,13 @@ async def logs(cont, name):
 ```
 
 ### Как запустить
-1. Устанавливаем зависимости: pip install -r requirements.txt
-3. Переходим в папку app и запускае тесты: pytest
+1. Переходим в папку test и устанавливаем зависимости: pip install -r requirements.txt
+2. Переходим в папку test/app и запускае тесты: pytest
+
+### Задача
+Напишите эндпойнт, который в качестве параметра сможет принимать незакодированную (unencoded) ссылку и возвращать его закодированным 
+
+### Как запустить
+1. Перейдите в папку решения fastapi и устанавливаем зависимости: pip install -r requirements.txt
+2. Запустите сервер: python -m main
+3. Отправляем запросы через postman: http://localhost:8000/api/v1/encode?url=http://example.com
