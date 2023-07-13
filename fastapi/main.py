@@ -1,7 +1,9 @@
 import fastapi
-import core
 import uvicorn
+
 import api
+import core
+
 
 settings = core.Settings()
 app = fastapi.FastAPI(
